@@ -8,5 +8,4 @@ from config import *
 #-- intro sequence --#
 def title_screen():
         pass 
-    pass 
 #--------------#

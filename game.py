@@ -9,7 +9,7 @@ from config import *
 class Game:
     def __init__(self, screen):
         pygame.init()
-        self.screen = pygame.display.set_mode(screen)
+        self.screen = pygame.display.set_mode(pygame.FULLSCREEN)
         pygame.display.set_caption("Naruto RPG")
         self.clock = pygame.time.Clock()
         self.running = True   # Controls the outer game loop
